@@ -1,0 +1,31 @@
+
+.table td, .table th{
+    border-top: none;
+}
+.table thead th{
+    border-bottom: none;
+}
+td{
+    color: #444;
+}
+.icons{
+    padding: 0;
+    margin-right: -30px;
+}
+.fa {
+    padding: 12px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+  .fa-facebook, .fa-linkedin, .fa-instagram,.fa-twitter {
+    background: #fff;
+    color: #000;
+    border: 1px #444 solid;
+  }
+  
