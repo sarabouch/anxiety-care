@@ -5,12 +5,16 @@
 .table thead th{
     border-bottom: none;
 }
+.table{
+    margin-left: 100px;
+}
 td{
     color: #444;
 }
-.icons{
-    padding: 0;
-    margin-right: -30px;
+
+.flex{
+    display: flex;
+    justify-content: space-around;
 }
 .fa {
     padding: 12px;
@@ -27,21 +31,18 @@ td{
     background: #fff;
     color: #000;
     border: 1px #444 solid;
+    margin-left: 55px;
   }
  
 .text-center{
     margin-top: 110px;
 }
-.textt{
-    margin-left: 20px;
-}
-
 h2{
     margin-right: 60px;
 }
 .text-left {
     text-align: left!important;
-    margin-left: 140px;
+    margin-left: 420px;
     margin-top: 50px;
     
 }
@@ -49,9 +50,10 @@ h2{
     color: black;
 }
 .staff-message{
-    margin-left: 20px;
+    padding-left: 22px;
     border-left: 1px solid #bababa ;
     color: #bababa;
+    margin-top: 10px;
 }
 .img-fluid{
     width: 100%;
@@ -101,4 +103,33 @@ h2{
     width: 75%;
     margin-left: 95px;
     margin-top: 45px;
+    background-color: #fff;
+    color: #444;
+    border-radius: 0;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+}
+.fisrt-section{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-icon{
+    padding: 0;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+h3{
+    font-family: 'Yeseva One', cursive;
+    line-height: 50px;
+    font-weight: 400;
 }
