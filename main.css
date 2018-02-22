@@ -62,3 +62,43 @@ h2{
     justify-content: center;
     width: 90%;
 }
+.bar {
+    list-style: none;
+  }
+  .bar >li {
+    position: relative;
+  }
+  .bar>li:before {
+    content: '\25CF';
+    margin-right: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    color: #ccc;
+  }
+  .bar>li:after {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    content: '';
+    border-left: 2px solid rgb(212, 212, 212);
+    margin-left: 5px;
+    height: 150%;
+  }
+  .bar >li:first-of-type:after {
+    top: 50%;
+    
+  }
+  .bar >li:last-of-type:after {
+    top: -50%;
+  }
+  p, h3, h4{
+      margin-left: 35px;
+  }
+
+.btn-block {
+    display: block;
+    width: 75%;
+    margin-left: 95px;
+    margin-top: 45px;
+}
