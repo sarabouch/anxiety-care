@@ -39,3 +39,26 @@ td{
 h2{
     margin-right: 60px;
 }
+.text-left {
+    text-align: left!important;
+    margin-left: 140px;
+    margin-top: 50px;
+    
+}
+.Save-button, .Save-button:hover{
+    color: black;
+}
+.staff-message{
+    margin-left: 20px;
+    border-left: 1px solid #bababa ;
+    color: #bababa;
+}
+.img-fluid{
+    width: 100%;
+    height: 500px;
+}
+.main-text{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
